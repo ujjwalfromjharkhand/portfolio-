@@ -1,0 +1,162 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+header {
+    background: #0073e6ce;
+    color: #891111;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1em;
+}
+
+header nav ul li a {
+    color: #16e0cfe8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2em 0;
+    background-color: #e51212;
+    margin-bottom: 2em;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: #0080ff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 1em;
+    border: 2px solid #0073e6;
+    transition: transform 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    background: #e0e0e0;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #0073e6;
+    transition: background 0.3s ease;
+}
+
+#skills ul li:hover {
+    background: #0073e6;
+    color: #830ed2;
+}
+
+#projects .project {
+    border: 1px solid #ddd;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(233, 0, 0, 0.91);
+}
+
+#projects .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+#resume a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background: #0073e6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+#resume a:hover {
+    background: #005bb5;
+}
+
+#contact p {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+footer {
+    background: #a00404;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
